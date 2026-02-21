@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Food recipe page.css">
+    <title>Page title</title>
+</head>
+<body>
+    <div id="inputPage">
+        <header>
+            
+        </header>
+    
+        <form>
+         <fieldset>
+             <legend>Personal info</legend>
+         
+             <label for="name">Name : </label> <input id="name" placeholder="Enter your name....">
+             
+             <br>
+             <label for="age">Age : </label> <input id="age" placeholder="Enter your age....">
+             
+             <br>
+             <label for="gender">Gender : </label> <select id="gender">
+                 <option selected disabled>Select your gender</option>
+                 <option>Male</option>
+                 <option>Female</option>
+             </select>
+         
+             <br>
+             <label for="email">E-mail : </label> <input id="email" placeholder="Enter your e-mail address....">
+         </fieldset>
+     
+         <br>
+         
+         <fieldset>
+             <legend>Recipe info</legend>
+             
+             <label for="recipeName">Recipe name : </label> <input id="recipeName" placeholder="Enter the name of the recipe....">
+             
+             <br>
+             <label for="cookingTime">Cooking time(in minutes) : </label> <input id="cookingTime" placeholder="Enter the cooking time of the recipe....">
+             
+             <br>
+             <label for="noOfPeople">Number of People : </label> <br> <input id="noOfPeople" placeholder="Enter the number of people that will eat...">
+             
+             <br>
+             <label for="ingredientsList">Ingredients List : </label> <textarea id="ingredientsList" rows="10" cols="20" placeholder="Enter the ingredients and their quantity"></textarea>
+         </fieldset>
+         
+         <fieldset>
+             <legend>Cooking directions</legend>
+             
+             <textarea id="cookingDirections" rows="20" cols="40"></textarea>
+             
+         </fieldset>
+        </form>
+        
+        
+        <button id="cancel">Cancel</button>
+        <button id="submit">Submit</button>
+         
+    </div>
+    
+    <script src="Food recipe page.js"></script>
+</body>
+</html>

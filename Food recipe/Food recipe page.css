@@ -1,0 +1,24 @@
+input, select, .ingredientsList{
+    margin : 10px;
+}
+
+div{
+    border: solid blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#createRecipeButton{
+    display: block;
+}
+
+.center{
+    text-align: center;
+}
+
+.recipeItem{
+    border: solid;
+    margin : 10px;
+    height : 50%;
+    width : 30%;
+}
